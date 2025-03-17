@@ -1,5 +1,6 @@
 import "./index.css";
 import { APITester } from "./APITester";
+import { WebcamViewer } from "./WebcamViewer";
 
 import logo from "./logo.svg";
 import reactLogo from "./react.svg";
@@ -29,6 +30,7 @@ export function App() {
         and save to test HMR
       </p>
       <APITester />
+      <WebcamViewer />
     </div>
   );
 }
